@@ -40,6 +40,7 @@ class AccountMapper {
         accountType = account.accountType,
         holderName = account.holderName,
         balance = account.balance,
-        status = account.status
+        status = account.status,
+        openedAt = account.createdAt
     )
 }
